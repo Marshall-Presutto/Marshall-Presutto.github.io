@@ -122,10 +122,11 @@
                 <td>${contact.EmailAddress}</td>
                 <td></td>
                 <td></td>
-                </tr>`
+                </tr>`;
 
-                index += 1;
+                index++;
             }
+            contactList.innerHTML = data;
         }
     }
 
@@ -142,7 +143,7 @@
             case "Contact Us":
                 DisplayContactPage();
                 break;
-            case "Contact List":
+            case "Contact-List":
                 DisplayContactListPage();
                 break;
             case "About Us":
