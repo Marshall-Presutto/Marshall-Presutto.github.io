@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us</title>
+    <title>Projects</title>
     <!--CSS Section -->
     <link  rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link  rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
@@ -23,11 +23,11 @@
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         
                 <li class="nav-item">
-                    <a class="nav-link"  href="index.html"><i class="fas fa-home"></i> Home</a>
+                    <a class="nav-link "  href="index.html"><i class="fas fa-home"></i> Home</a>
                 </li>
               
                 <li class="nav-item">
-                    <a class="nav-link" href="products.html"><i class="fas fa-project-diagram"></i> Products</a>
+                    <a class="nav-link active" aria-current="page" href="products.html"><i class="fas fa-project-diagram"></i> Products</a>
                 </li>
 
                 <li class="nav-item">
@@ -35,7 +35,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="about.html"><i class="fas fa-info"></i> About Us</a>
+                    <a class="nav-link" href="about.html"><i class="fas fa-info"></i> About Us</a>
                 </li>
 
                 <li class="nav-item">
@@ -51,32 +51,41 @@
 
 
     <!--Page code starts here-->
+    <h1 id = "projectHeader" class="container-fluid"></h1>
 
-      <div class="container-fluid">
-        <h1 id="aboutHeader"></h1>
+    <p id = "projectParagraph" class="container-fluid"></p>
+
+    <div class="container-fluid">
+    <p>
         <hr>
-        <h2 id="ethanName"></h2>
-        <img class="border border-5 border-dark rounded" src="./Assets/Images/Ethan.png" alt="Ethan" width="150" height="250">
-        <p id ="ethanDescription">
+        <div style="text-align: left;">
+        <h1 id="discordTitle">
+            Discord Bot
+        </h1>
+        <img  src="./Assets/Images/discord_logo.webp" alt="Discord" width="650" height="450">
+        <p id="discordBody"></p>
+        </div>
+        <hr>
+        <div style="text-align: right;">
+        <h1 id= "sudokuTitle">
+        </h1>
+        <img  src="./Assets/Images/code.jpg" alt="Code" width="650" height="450">
+        <p id="sudokuBody">
         </p>
-        <h3 id ="ethanResume"></a></h3>
+        <h3 id="sudokuDownload"></h3>
+        </div>
         <hr>
-      </div>
-
-
-      <div class ="container-fluid">
-
-        <h2 id="marshallName"></h2>
-        <img class="border border-5 border-dark rounded" src="./Assets/Images/Marshall.jpg" alt="Marshall" width="170" height="250">
-        <p id ="marshallDescription">
+        <div>
+        <h1 id="muralTitle">
+        </h1>
+        <img  src="./Assets/Images/spidermanMural.jpg" alt="SpidermanMural" width="650" height="450">
+        <p id="muralBody">
         </p>
-        <h3 id ="marshallResume"></h3>
-        <hr>
+        </div>
         <br>
         <br>
-
-      </div>
-
+    </p>
+    </div>
 
 
     <!--Page code ends here-->

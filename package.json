@@ -1,13 +1,13 @@
 {
-  "name": "ICE3",
+  "name": "lab-1",
   "version": "1.0.0",
-  "description": "WEBD6201-W2022 ICE-2",
+  "description": "Lab 1 for WEBD6201 in the Winter 2022 Semester",
   "main": "index.js",
-  "author": "Marshall Presutto",
-  "license": "MIT",
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.4",
-    "@popperjs/core": "^2.11.2",
+    "@popperjs/core": "^2.10.2",
     "bootstrap": "^5.1.3",
     "jquery": "^3.6.0"
   }
