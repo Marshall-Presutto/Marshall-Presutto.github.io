@@ -5,99 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Services</title>
-    <!--CSS Section -->
-    <link  rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link  rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
-    <link  rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link  rel="stylesheet" href="./Content/app.css">
+    <!-- CSS Section -->
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="./Content/app.css">
 </head>
 <body>
-    <!--Nav bar starts-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html"><i class="fas fa-ghost"></i> WEBD6201 - Lab 1</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        
-                <li class="nav-item">
-                    <a class="nav-link"  href="index.html"><i class="fas fa-home"></i> Home</a>
-                </li>
-              
-                <li class="nav-item">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html"><i class="fas fa-spider"></i> WEBD6201</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html"><i class="fas fa-home"></i> Home</a>
+                  </li>
+                  <li class="nav-item">
                     <a class="nav-link" href="products.html"><i class="fas fa-project-diagram"></i> Products</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="services.html"><i class="fas fa-concierge-bell"></i> Services</a>
-                </li>
-
-                <li class="nav-item">
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="services.html"><i class="fas fa-map-signs"></i> Services</a>
+                  </li>
+                  <li class="nav-item">
                     <a class="nav-link" href="about.html"><i class="fas fa-info"></i> About Us</a>
-                </li>
-
-                <li class="nav-item">
+                  </li>
+                  <li class="nav-item">
                     <a class="nav-link" href="contact.html"><i class="fas fa-envelope"></i> Contact Us</a>
-                </li>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
 
-            </ul>
-          </div>
-        </div>
-      </nav>
-    <!--Nav bar ends-->
+    <div class="container">
+        <h1>Services</h1>
 
-
-
-    <!--Page code starts here-->
-    <h1 id="serviceHeader" style ="text-align: center;"></h1>
-    <p id="serviceParagraph" style="text-align: center;"></p>
-
-    <div style ="text-align: center;">
-        <hr>
-        <h2 id="customProgHeader"></h2>
-        <img  src="./Assets/Images/ProgrammingImage.webp" alt="Programming" width="450" height="250">
-        <p id="customProgBody">
-
-        </p>
-        <button type="button" class="btn btn-dark btn-lg" id="ContactServices1" ></button>
-        <hr>
-        <h2 id="tutorHeader"></h2>
-        <img src="./Assets/Images/tutoring.jpg" alt="tutoring" width="450" height="250">
-        <p id="tutorBody">
-        </p>
-        <button type="button" class="btn btn-dark btn-lg" id="ContactServices2" ></button>
-        <hr>
-        <h2 id="artHeader"></h2>
-        <p id="artBody"> 
-        </p>
-        <button type="button" class="btn btn-dark btn-lg" id="ContactServices3" ></button>
-        <div text-align="center">
-            <img src="./Assets/Images/FormSketches.jpg" alt="Forms" style="width:100%; padding:15px 0px 0px 0px">
-        </div>
-        <div class="column">
-            <img src="./Assets/Images/Knight.jpg" alt="Knight" style="width:100%">
-        </div>
-        <div class="column">
-            <img src="./Assets/Images/MayorMuscle.jpg" alt="Mayor Muscle" style="width:100%">
-        </div>
-        <hr>
-        <br>
-        <br>
     </div>
 
-
-
-
-
-
-    <!--Page code ends here-->
-    
     <!-- Scripting Section -->
     <script src="./node_modules/jquery/dist/jquery.min.js"></script>
-
-    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="./Scripts/app.js"></script>
 </body>
 </html>
