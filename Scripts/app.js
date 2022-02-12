@@ -163,6 +163,7 @@
             if(subscribeCheckbox.checked)
             {
                 AddContact(fullName.value, contactNumber.value, emailAddress.value);
+                location.href = "contact-list.html";
             }
         });
     }
